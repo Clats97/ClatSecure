@@ -79,3 +79,6 @@ This project is open-source under the Apache 2.0 License.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality or compliance with AES standards.
+![histogram1](https://github.com/user-attachments/assets/6dab58b4-ec22-49ea-b6a5-8729ae4c398e)
+
+![histogram2](https://github.com/user-attachments/assets/842ed410-c6d5-48bc-a733-cbf568d981b4)
