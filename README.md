@@ -1,4 +1,4 @@
-# README: AES Key Generator and Encryption Framework
+**AES Key Generators**
 
 ## Overview
 This project implements AES key generation and encryption utilities in Python, including:
@@ -19,10 +19,11 @@ The following libraries are needed to run the script:
 1. **os**: For generating secure random salts.
 2. **numpy**: For efficient matrix manipulations and transformations.
 3. **argon2-cffi**: For cryptographic key derivation using Argon2.
+4. **pystyle** for branding
 
 Install the dependencies using pip:
 
-pip install numpy argon2-cffi
+pip install numpy argon2-cffi pystyle
 
 ## How It Works
 
@@ -53,8 +54,8 @@ The final round omits the **MixColumns** step:
 ## Usage
 
 ### Running the Script
-1. Enter a password when prompted. The script will generate 100 AES keys, apply the encryption rounds, and display the final state in hexadecimal format.
-2. Run the script:
+1. Enter a password (for key deriviation) when prompted. The script will generate 100 AES keys, apply the encryption rounds, and display the final state in hexadecimal format.
+2. Open the python file.
 
 ### Example Output
 Enter password: mypassword
