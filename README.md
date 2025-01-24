@@ -1,4 +1,4 @@
-**AES Key Generators**
+**ClatSecure Encryption Key Generator**
 
 ## Overview
 This project implements AES key generation and encryption utilities in Python, including:
@@ -9,8 +9,6 @@ This project implements AES key generation and encryption utilities in Python, i
 - Generates secure AES keys with **high entropy**.
 - Supports encryption rounds compliant with AES.
 - Provides functionality for **key expansion**, **round transformations**, and **state operations**.
-
----
 
 ## Installation
 
@@ -49,8 +47,6 @@ The final round omits the **MixColumns** step:
 2. **ShiftRows**
 3. **AddRoundKey**
 
----
-
 ## Usage
 
 ### Running the Script
@@ -71,12 +67,9 @@ C0A1B2C3D4E5F60789AB12CD34EF5678
 - Secure password-derived key generation for cryptographic use.
 - Testing and learning cryptographic algorithms.
 
----
-
 ## License
 This project is open-source under the Apache 2.0 License.
 
---- 
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality or compliance with AES standards.
